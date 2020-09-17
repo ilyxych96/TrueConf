@@ -8,6 +8,6 @@ curl -i http://localhost:5000/
 ### Получение User по Id
 curl -i http://localhost:5000/1
 ### Редактирование User по Id
-curl -i -H "Content-Type: application/json" -X PUT -d "{"""Sex""":"""male"""}" http://localhost:5000/
+curl -i -H "Content-Type: application/json" -X PUT -d "{"""sex""":"""male"""}" http://localhost:5000/
 ### Удаление User по Id
 curl -i -H "Content-Type: application/json" -X DELETE http://localhost:5000/3
